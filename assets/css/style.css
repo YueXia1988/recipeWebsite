@@ -1,0 +1,53 @@
+p	{
+		/*color name is teal
+		color: teal;*/
+		color: rgba(0,128,128,0.8);
+		/*background-color: aqua;
+		background-color: hsl(128,60%,30%);*/
+}
+
+section	{
+	background-color: aquamarine;
+
+}
+
+li {/**/
+	background-color: mediumpurple;
+
+}
+
+.rich {
+	color: red;
+
+}
+#topic {
+	background-color: thistle;
+
+}
+p {
+	color: orange;
+}
+
+/**/.feature p.richtext{
+	color: plum;
+
+
+}
+
+main p{
+	color:black;
+}
+/*Child selector*/
+header>h1 {
+	background-color: pink;
+}
+
+li>a{
+	color: darkred;
+}
+
+/*sibling selector*/
+h2+p{
+	background-color: plum;
+
+}
